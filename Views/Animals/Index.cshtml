@@ -1,0 +1,31 @@
+@model IEnumerable<Sheep.SiteV2.Api.Models.Animal>
+@{
+        ViewData["Title"] = "Animals Page";
+}
+
+<div class="row">
+    <div class="col-lg-12">
+        <h2>Sheep Currently on the Farm</h2>
+        <h3>Last updated: @(System.DateTime.Now)</h3>
+
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Animal</th>
+                    <th>DOB</th>
+                    <th>Gender</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var animal in Model)
+                {
+                    <tr>
+                        <td>@animal.Id</td>
+                        <td>@animal.sheepDOB</td>
+                        <td>@animal.sheepGender</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

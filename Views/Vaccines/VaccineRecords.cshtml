@@ -1,0 +1,35 @@
+@model IEnumerable<Sheep.SiteV2.Api.Models.Vaccine>
+@{
+        ViewData["Title"] = "Vaccines Page";
+}
+
+<div class="row">
+    <div class="col-lg-18">
+        <h2>Vaccine Records</h2>
+        <h3>Last updated: @(System.DateTime.Now)</h3>
+
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Dosage</th>
+                    <th>Date</th>
+                    <th>Comments</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var vaccine in Model)
+                {
+                    <tr>
+                        <td>@vaccine.vaccineID</td>
+                        <td>@vaccine.vaccineName</td>
+                        <td>@vaccine.vaccineDosage</td>
+                        <td>@vaccine.vaccineDate</td>
+                        <td>@vaccine.vaccineComment</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

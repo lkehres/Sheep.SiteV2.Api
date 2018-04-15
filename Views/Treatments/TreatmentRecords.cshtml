@@ -1,0 +1,35 @@
+@model IEnumerable<Sheep.SiteV2.Api.Models.Treatment>
+@{
+        ViewData["Title"] = "Treatments Page";
+}
+
+<div class="row">
+    <div class="col-lg-18">
+        <h2>Treatment Records</h2>
+        <h3>Last updated: @(System.DateTime.Now)</h3>
+
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Dosage</th>
+                    <th>Date</th>
+                    <th>Comments</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var treatment in Model)
+                {
+                    <tr>
+                        <td>@treatment.treatmentID</td>
+                        <td>@treatment.treatmentName</td>
+                        <td>@treatment.treatmentDosage</td>
+                        <td>@treatment.treatmentDate</td>
+                        <td>@treatment.treatmentComment</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

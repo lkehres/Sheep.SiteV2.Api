@@ -1,0 +1,37 @@
+@model IEnumerable<Sheep.SiteV2.Api.Models.Pregnancy>
+@{
+        ViewData["Title"] = "Pregnancies Page";
+}
+
+<div class="row">
+    <div class="col-lg-12">
+        <h2>Pregnancy Records</h2>
+        <h3>Last updated: @(System.DateTime.Now)</h3>
+
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Pregnancy</th>
+                    <th>Conception Date</th>
+                    <th>Est. Birth</th>
+                    <th>Act. Birth</th>
+                    <th># Babies</th>
+                    <th>Comments</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var pregnancy in Model)
+                {
+                    <tr>
+                        <td>@pregnancy.pregnancyID</td>
+                        <td>@pregnancy.conceptionDate</td>
+                        <td>@pregnancy.estBirth</td>
+                        <td>@pregnancy.actBirth</td>
+                        <td>@pregnancy.numberOfBabies</td>
+                        <td>@pregnancy.pregnancyComment</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
