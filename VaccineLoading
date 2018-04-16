@@ -1,0 +1,57 @@
+INSERT INTO "Vaccines"("vaccineID", "vaccineComment", "vaccineDate", "vaccineDosage", "vaccineName", "vAnimalId")
+VALUES(136, 'Sheep Flu', '01/23/18', '13 ml', 'Colon', 2);
+
+INSERT INTO "Vaccines"("vaccineID", "vaccineComment", "vaccineDate", "vaccineDosage", "vaccineName", "vAnimalId")
+VALUES(244, 'Sheep Cold', '11/03/17', '6 ml', 'Gonzales', 3);
+
+INSERT INTO "Vaccines"("vaccineID", "vaccineComment", "vaccineDate", "vaccineDosage", "vaccineName", "vAnimalId")
+VALUES(5, 'None', '10/31/18', '7 ml', 'Case', 4);
+
+INSERT INTO "Vaccines"("vaccineID", "vaccineComment", "vaccineDate", "vaccineDosage", "vaccineName", "vAnimalId")
+VALUES(255, 'Precautionary', '05/30/17', '12 ml', 'Houston', 5);
+
+INSERT INTO "Vaccines"("vaccineID", "vaccineComment", "vaccineDate", "vaccineDosage", "vaccineName", "vAnimalId")
+VALUES(219, 'None', '11/25/17', '5 ml', 'Chavez', 6);
+
+INSERT INTO "Vaccines"("vaccineID", "vaccineComment", "vaccineDate", "vaccineDosage", "vaccineName", "vAnimalId")
+VALUES(303, 'Yearly - predisposed', '06/21/18', '8 ml', 'Cline', 7);
+
+INSERT INTO "Vaccines"("vaccineID", "vaccineComment", "vaccineDate", "vaccineDosage", "vaccineName", "vAnimalId")
+VALUES(167, 'None', '08/20/17', '8 ml', 'Nolan', 8);
+
+INSERT INTO "Vaccines"("vaccineID", "vaccineComment", "vaccineDate", "vaccineDosage", "vaccineName", "vAnimalId")
+VALUES(406, 'Every 6 months- predisposed', '01/25/18', '7 ml', 'Cline', 7);
+
+INSERT INTO "Vaccines"("vaccineID", "vaccineComment", "vaccineDate", "vaccineDosage", "vaccineName", "vAnimalId")
+VALUES(88, 'Mom has it - precautionary', '01/19/19', '9 ml', 'Weaver', 9);
+
+INSERT INTO "Vaccines"("vaccineID", "vaccineComment", "vaccineDate", "vaccineDosage", "vaccineName", "vAnimalId")
+VALUES(441, 'None', '11/12/18', '10 ml', 'Valdez', 10);
+
+INSERT INTO "Vaccines"("vaccineID", "vaccineComment", "vaccineDate", "vaccineDosage", "vaccineName", "vAnimalId")
+VALUES(294, 'None', '02/07/17', '8 ml', 'White', 11);
+
+INSERT INTO "Vaccines"("vaccineID", "vaccineComment", "vaccineDate", "vaccineDosage", "vaccineName", "vAnimalId")
+VALUES(341, 'Yearly', '12/14/17', '5 ml', 'Kinney', 12);
+
+INSERT INTO "Vaccines"("vaccineID", "vaccineComment", "vaccineDate", "vaccineDosage", "vaccineName", "vAnimalId")
+VALUES(196, 'Strain can be deadly', '08/16/17', '12 ml', 'Hobbs', 13);
+
+INSERT INTO "Vaccines"("vaccineID", "vaccineComment", "vaccineDate", "vaccineDosage", "vaccineName", "vAnimalId")
+VALUES(420, 'None', '03/10/18', '11 ml', 'Barlow', 14);
+
+INSERT INTO "Vaccines"("vaccineID", "vaccineComment", "vaccineDate", "vaccineDosage", "vaccineName", "vAnimalId")
+VALUES(173, 'None', '10/15/18', '5 ml', 'Huber', 15);
+
+INSERT INTO "Vaccines"("vaccineID", "vaccineComment", "vaccineDate", "vaccineDosage", "vaccineName", "vAnimalId")
+VALUES(429, 'Sister had it', '04/27/18', '10 ml', 'Love', 16);
+
+INSERT INTO "Vaccines"("vaccineID", "vaccineComment", "vaccineDate", "vaccineDosage", "vaccineName", "vAnimalId")
+VALUES(357, 'None', '05/31/18', '10 ml', 'Brayn', 17);
+
+INSERT INTO "Vaccines"("vaccineID", "vaccineComment", "vaccineDate", "vaccineDosage", "vaccineName", "vAnimalId")
+VALUES(380, 'Precautionary', '08/22/17', '10 ml', 'Aguirre', 18);
+
+INSERT INTO "Vaccines"("vaccineID", "vaccineComment", "vaccineDate", "vaccineDosage", "vaccineName", "vAnimalId")
+VALUES(25, 'None', '11/15/17', '6 ml', 'Strickland', 19);
+

@@ -11,9 +11,10 @@ using System;
 namespace Sheep.SiteV2.Api.Migrations
 {
     [DbContext(typeof(SheepSiteV2Context))]
-    partial class SheepSiteV2ContextModelSnapshot : ModelSnapshot
+    [Migration("20180416182653_initia")]
+    partial class initia
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
