@@ -43,7 +43,7 @@ options.UseNpgsql(Configuration.GetConnectionString("SheepSiteV2Connection")));
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "api/{controller=Animals}/{action=Index}/{id?}");
+                    template: "api/{controller=Animals}/{action=Index}");
             });
         }
     }
