@@ -3,17 +3,16 @@
         ViewData["Title"] = "Treatments Page";
 }
 
-<div class="row">
-    <div class="col-lg-18">
+
         <h2>Treatment Records</h2>
         <h3>Last updated: @(System.DateTime.Now)</h3>
 
         <table class="table table-striped">
             <thead>
                 <tr>
-                    <th>ID</th>
-                    <th>Animal</th>
-                    <th>Name</th>
+                    <th>Treatment ID</th>
+                    <th>Animal ID</th>
+                    <th>Treatment Name</th>
                     <th>Dosage</th>
                     <th>Date</th>
                     <th>Comments</th>
@@ -33,5 +32,3 @@
                 }
             </tbody>
         </table>
-    </div>
-</div>

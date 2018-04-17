@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
@@ -9,18 +9,21 @@ using Sheep.SiteV2.Api.Data;
 
 namespace Sheep.SiteV2.Api.Controllers
 {
-    public class VaccinesController : Controller
+    
+    public class HomeController : Controller
     {
-    private readonly SheepSiteV2Context db;
+    
+       private readonly SheepSiteV2Context db;
 
-       public VaccinesController(SheepSiteV2Context db)
+       public HomeController(SheepSiteV2Context db)
        {
            this.db = db;
        }
        [HttpGet]
-       public IActionResult VaccineRecords()
+       public IActionResult Index()
        {
-           return View(db.Vaccines);
+           return View();
        }
+ 
     }
 }

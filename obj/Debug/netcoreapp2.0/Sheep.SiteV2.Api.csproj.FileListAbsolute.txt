@@ -8,3 +8,14 @@
 /Users/laurakehres/Desktop/MIS_3610_Workspace/Sheep.SiteV2.Api/bin/Debug/netcoreapp2.0/Sheep.SiteV2.Api.pdb
 /Users/laurakehres/Desktop/MIS_3610_Workspace/Sheep.SiteV2.Api/obj/Debug/netcoreapp2.0/Sheep.SiteV2.Api.dll
 /Users/laurakehres/Desktop/MIS_3610_Workspace/Sheep.SiteV2.Api/obj/Debug/netcoreapp2.0/Sheep.SiteV2.Api.pdb
+C:\ACCTMIS 3610\Sheep.SiteV2.Api\bin\Debug\netcoreapp2.0\Sheep.SiteV2.Api.deps.json
+C:\ACCTMIS 3610\Sheep.SiteV2.Api\bin\Debug\netcoreapp2.0\Sheep.SiteV2.Api.runtimeconfig.json
+C:\ACCTMIS 3610\Sheep.SiteV2.Api\bin\Debug\netcoreapp2.0\Sheep.SiteV2.Api.runtimeconfig.dev.json
+C:\ACCTMIS 3610\Sheep.SiteV2.Api\bin\Debug\netcoreapp2.0\Sheep.SiteV2.Api.dll
+C:\ACCTMIS 3610\Sheep.SiteV2.Api\bin\Debug\netcoreapp2.0\Sheep.SiteV2.Api.pdb
+C:\ACCTMIS 3610\Sheep.SiteV2.Api\obj\Debug\netcoreapp2.0\Sheep.SiteV2.Api.csprojResolveAssemblyReference.cache
+C:\ACCTMIS 3610\Sheep.SiteV2.Api\obj\Debug\netcoreapp2.0\Sheep.SiteV2.Api.csproj.CoreCompileInputs.cache
+C:\ACCTMIS 3610\Sheep.SiteV2.Api\obj\Debug\netcoreapp2.0\Sheep.SiteV2.Api.AssemblyInfoInputs.cache
+C:\ACCTMIS 3610\Sheep.SiteV2.Api\obj\Debug\netcoreapp2.0\Sheep.SiteV2.Api.AssemblyInfo.cs
+C:\ACCTMIS 3610\Sheep.SiteV2.Api\obj\Debug\netcoreapp2.0\Sheep.SiteV2.Api.dll
+C:\ACCTMIS 3610\Sheep.SiteV2.Api\obj\Debug\netcoreapp2.0\Sheep.SiteV2.Api.pdb
