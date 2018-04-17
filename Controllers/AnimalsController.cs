@@ -58,7 +58,7 @@ namespace Sheep.SiteV2.Api.Controllers
             return Ok(animal);
         }
 
-        [Route("api/[controller]")]
+        [Route("api/[controller]/[action]")]
         [HttpPost]
         public IActionResult Post([FromBody]Animal animal)
         {

@@ -16,6 +16,39 @@
                     <th>Gender</th>
                 </tr>
             </thead>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Edit Table</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Update Sheep <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li class="nav-item active">
+            <a class="nav-link" href="/api/animals/post">Add <span class="sr-only">(current)</span></a>
+            </li>
+            <a class="nav-link" href="/api/animals/delete">Delete <span class="sr-only">(current)</span></a>
+            </li>
+            <a class="nav-link" href="/api/animals/put">Update <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="divider"></li>
+          </ul>
+        </li>
+      </ul>
+      </ul>
+    </div>
+  </div>
+</nav>
+
             <tbody>
                 @foreach (var animal in Model)
                 {
