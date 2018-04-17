@@ -1,6 +1,6 @@
 @model IEnumerable<Sheep.SiteV2.Api.Models.Vaccine>
 @{
-        ViewData["Title"] = "Vaccines Page";
+        ViewData["Title"] = "   Vaccines Page";
 }
 
 <div class="row">
@@ -12,6 +12,7 @@
             <thead>
                 <tr>
                     <th>ID</th>
+                    <th>Animal</th>
                     <th>Name</th>
                     <th>Dosage</th>
                     <th>Date</th>
@@ -23,6 +24,7 @@
                 {
                     <tr>
                         <td>@vaccine.vaccineID</td>
+                        <td>@vaccine.vAnimalId</td>
                         <td>@vaccine.vaccineName</td>
                         <td>@vaccine.vaccineDosage</td>
                         <td>@vaccine.vaccineDate</td>

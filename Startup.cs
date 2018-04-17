@@ -8,6 +8,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using Microsoft.EntityFrameworkCore;
+using Sheep.SiteV2.Api.Data;
+
 
 namespace Sheep.SiteV2.Api
 {
@@ -23,6 +26,8 @@ namespace Sheep.SiteV2.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<Sheep.SiteV2.Api.Data.SheepSiteV2Context>(options =>
+options.UseNpgsql(Configuration.GetConnectionString("SheepSiteV2Connection")));
             services.AddMvc();
         }
 
@@ -38,7 +43,7 @@ namespace Sheep.SiteV2.Api
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "api/{controller=Animals}/{action=Index}/{id?}");
+                    template: "api/{controller=Animals}/{action=Index}");
             });
         }
     }
