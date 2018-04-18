@@ -5,6 +5,8 @@
 
         <h2>Sheep Currently on the Farm</h2>
         <h3>Last updated: @(System.DateTime.Now)</h3>
+        <button type="button" onclick="alert('This feature not available until version 2!')">Add New Sheep</button>
+ 
 
         <table class="table table-striped">
             <thead>
@@ -14,19 +16,18 @@
                     <th>Gender</th>
                 </tr>
             </thead>
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
+
+
+<!--<nav class="navbar navbar-inverse">
+ <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">Edit Table</a>
-    </div>
+        <span class="icon-bar"></span> 
 
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
       <ul class="nav navbar-nav">
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Update Sheep <span class="caret"></span></a>
@@ -44,7 +45,7 @@
       </ul>
       </ul>
 
-</nav>
+</nav> -->
 
             <tbody>
                 @foreach (var animal in Model)
