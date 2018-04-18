@@ -15,23 +15,7 @@ namespace Sheep.SiteV2.Api.Controllers
         {
             this.db = db;
 
-            if(this.db.Animals.Count() == 0)
-            {
-                this.db.Animals.Add(new Animal {
-                    Id = 1,
-                    sheepDOB = default(DateTime),
-                    sheepGender = "F"
-                });
-                
-                this.db.Animals.Add(new Animal
-                {
-                    Id = 2,
-                    sheepDOB = default(DateTime),
-                    sheepGender = "M"
-                });
 
-                this.db.SaveChanges();
-            }
         }
         [Route("api/[controller]/[action]")]
        [HttpGet]
